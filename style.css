@@ -1,0 +1,73 @@
+body {
+    background-color: #1E2124;
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Name {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: aliceblue 5px solid;
+}
+
+.Navigate {
+    margin-left: 180px;
+    border-bottom: aliceblue 3px solid;
+    width: 100px;
+    border-left: aliceblue 3px solid;
+    border-right: aliceblue 3px solid;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #1E2124;
+    color: aliceblue;
+    border-top: none;
+    transition: ease-in-out 150ms;
+}
+
+.Navigate:hover {
+    background-color: aliceblue;
+    border-color: #1E2124;
+    color: #1E2124;
+}
+
+.Navigate:active {
+    background-color: #1E2124;
+    color: aliceblue;
+}
+
+.dropButton {
+    background-color: #1E2124;
+    color: aliceblue;
+    border: none;
+    margin-left: 210px;
+}
+
+.Navigate:hover .dropContent {
+    display: block;
+}
+
+.dropContent {
+    /* display: none; */
+    position: absolute;
+}
+
+#dropButton1 {
+    border-top-left-radius: 70px;
+    border: aliceblue 3px solid;
+    border-top-right-radius: 70px;
+    border-bottom: none;
+}
+
+#dropButton2,
+#dropButton3 {
+    border: aliceblue 3px solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+#dropButton4 {
+    border: aliceblue 3px solid;
+    border-top: none;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
